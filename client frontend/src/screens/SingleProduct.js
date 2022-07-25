@@ -94,7 +94,7 @@ const SingleProduct = ({ history, match }) => {
                       <h6>Comentario</h6>
                       <Rating
                         value={product.rating}
-                        text={`${product.numReviews} reviews`}
+                        text={`${product.numReviews} comentarios`}
                       />
                     </div>
                     {product.countInStock > 0 ? (
